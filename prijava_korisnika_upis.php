@@ -17,9 +17,9 @@ $ime_prezime_broj = $ime." ".$prezime." ".$poziv_na_broj;
 //Parametri za pristup bazi
 
 $host = 'localhost';
-$user = 'root';
-$password = 'Stek83cc!+';    
-$baza = 'vawireless';
+$user = 'asterisk';
+$password = 'asterisk';
+$baza = 'asterisk';
 
 // 1. Konekcija na server baze podataka, treba ($host,$user, $password)
 $konekcija = mysql_connect ($host,$user, $password) or die ('Nema veze sa serverom baze podataka'.mysql_error());
